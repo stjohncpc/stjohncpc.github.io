@@ -1,0 +1,117 @@
+.header {
+    background: url(img/header-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 0;
+    min-height: 270px !important;
+}
+
+.logo {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    max-height: 138px;
+    margin: 0 auto;
+}
+
+.menu a {
+    color: #FFF !important;
+    font-size: large;
+}
+
+.menu a:hover {
+    color: #00667d !important;
+    background-color: #F1F1F1;
+    font-size: large;
+}
+
+ul li ul {
+    background-color: #F1F1F1;
+}
+
+.content-bg {
+    background: #FFF url(img/worship-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 400px;
+    padding-bottom: 20px;
+}
+
+.contact-us {
+    background: #F9F9F9;
+    color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 2px solid #F1F1F1;
+}
+
+.footer {
+    background: #333 url(img/table-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    color: #FFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 100px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 15px 0;
+}
+
+.campus-map-img {
+    margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.sermons-card {
+    background-color: #00667d;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.sermons-card a {
+    color: white;
+}
+
+.blue-card {
+    background-color: #00667d;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* font-size: larger; */
+}
+
+.blue-card a {
+    color: white;
+}
+
+.blue-text {
+    color: #00667d
+}
+
+.grey-text {
+    color: #525151
+}
+
+ul a:hover {
+    background-color: #F1F1F1;
+    color: #00667d !important;
+}
+
+.media-carousel {
+    /* padding: 10px !important; */
+}

@@ -24,28 +24,71 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
+                    <div class="mobile-menu">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle Navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="myTogglerNav">
+                            <nav id="navbar-site" class="navbar navbar-dark navbar-expand-md bg-transparent">
+                                <div class="navbar-nav m-auto">
+                                    <a class="nav-item nav-link" href="http://www.stjohncpc.org">Home</a>
+                                    <div class="dropdown">
+                                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="AboutUsDropdown" aria-haspopup="true" aria-expanded="false" href="#">About Us</a>
+                                        <div class="dropdown-menu" aria-labelledby="AboutUsDropdown">
+                                            <a class="dropdown-item" href="who-we-are.html">Who We Are</a>
+                                            <a class="dropdown-item" href="our-leadership.html">Our Leadership</a>
+                                            <a class="dropdown-item" href="our-history.html">Our History</a>
+                                            <a class="dropdown-item" href="sunday-mornings.html">Sunday Mornings</a>
+                                            <a class="dropdown-item" href="campus-map.html">Campus Map</a>
 
-                    <nav class="navbar navbar-expand-sm navbar-light menu justify-content-center">
-                        <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#main-nav">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                        <div class="collapse navbar-collapse justify-content-center" id="main-nav">
-                            <ul class="navbar-nav">
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
-                                    <ul class="dropdown-menu menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a href="" class="nav-link">About US</a></li>
-                                <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
-                            </ul>
+
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="SermonsDropdown" aria-haspopup="true" aria-expanded="false" href="#">Sermons</a>
+                                        <div class="dropdown-menu" aria-labelledby="SermonsDropdown">
+                                            <a class="dropdown-item" href="http://www.stjohncpc.media">Media Page</a>
+                                            <a class="dropdown-item" href="https://m.facebook.com/sjcpc/">Facebook</a>
+                                            <a class="dropdown-item" href="http://kascott.podbean.com/">Podcast</a>
+
+                                        </div>
+                                    </div>
+                                    <a href="#contact-us" class="nav-item nav-link">Contact Us</a>
+
+                                </div>
+                            </nav>
                         </div>
-                    </nav>
+                    </div>
+                    <div class="non-mobile-menu">
+                        <nav id="navbar-site" class="navbar navbar-dark navbar-expand-md bg-transparent">
+                            <div class="navbar-nav m-auto">
+                                <a class="nav-item nav-link" href="http://www.stjohncpc.org">Home</a>
+                                <div class="dropdown">
+                                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="AboutUsDropdown" aria-haspopup="true" aria-expanded="false" href="#">About Us</a>
+                                    <div class="dropdown-menu" aria-labelledby="AboutUsDropdown">
+                                        <a class="dropdown-item" href="who-we-are.html">Who We Are</a>
+                                        <a class="dropdown-item" href="our-leadership.html">Our Leadership</a>
+                                        <a class="dropdown-item" href="our-history.html">Our History</a>
+                                        <a class="dropdown-item" href="sunday-mornings.html">Sunday Mornings</a>
+                                        <a class="dropdown-item" href="campus-map.html">Campus Map</a>
 
 
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="SermonsDropdown" aria-haspopup="true" aria-expanded="false" href="#">Sermons</a>
+                                    <div class="dropdown-menu" aria-labelledby="SermonsDropdown">
+                                        <a class="dropdown-item" href="http://www.stjohncpc.media">Media Page</a>
+                                        <a class="dropdown-item" href="https://m.facebook.com/sjcpc/">Facebook</a>
+                                        <a class="dropdown-item" href="http://kascott.podbean.com/">Podcast</a>
+
+                                    </div>
+                                </div>
+                                <a href="#contact-us" class="nav-item nav-link">Contact Us</a>
+
+                            </div>
+                        </nav>
+                    </div>
 
                 </div>
             </div>
@@ -163,7 +206,7 @@
         </section>
         </div>
         <!--Contact Info -->
-        <section class="jumbotron-fluid contact-us">
+        <section class="jumbotron-fluid contact-us" id="contact-us">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8">Contact Us<br>
@@ -178,7 +221,7 @@
                     <div class="col-sm-4">
                         <a target="_new" href="https://m.facebook.com/sjcpc/">
 					Come Visit Us on Facebook<br>
-					<img src="http://www.stjohncpc.org/images/fb.png" height="100" width="100">
+					<img src="http://www.stjohncpc.org/img/fb.png" height="100" width="100">
 				</a>
                     </div>
                 </div>
@@ -205,6 +248,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="js.js"></script>
 </body>
 
 </html>

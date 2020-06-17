@@ -2,7 +2,7 @@
     background: url(img/header-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center bottom;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     margin-bottom: 0;
     min-height: 270px !important;
@@ -16,23 +16,39 @@
     margin: 0 auto;
 }
 
-.menu a {
-    color: #FFF !important;
-    font-size: large;
+
+/* .navbar-toggler {
+    display: none !important;
+} */
+
+.non-mobile-menu {
+    display: block;
 }
 
-.menu a:hover {
-    color: #00667d !important;
-    background-color: #F1F1F1;
-    font-size: large;
+.mobile-menu {
+    display: none;
 }
 
-ul li ul {
-    background-color: #F1F1F1;
+.navbar-toggler-icon {
+    color: #fff !important;
+    background-image: url(img/hamburger.png);
+}
+
+.navbar-toggler-icon a {
+    color: #fff !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+button {
+    color: white !important;
+    z-index: 900 !important;
 }
 
 .content-bg {
-    background: #FFF url(img/worship-bg.jpg) no-repeat;
+    background: #fff url(img/worship-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -44,18 +60,18 @@ ul li ul {
 }
 
 .contact-us {
-    background: #F9F9F9;
+    background: #f9f9f9;
     color: #333;
     padding-left: 20px;
     padding-right: 20px;
-    border-top: 2px solid #F1F1F1;
+    border-top: 2px solid #f1f1f1;
 }
 
 .footer {
     background: #333 url(img/table-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
-    color: #FFF;
+    color: #fff;
     padding-left: 30px;
     padding-right: 30px;
     min-height: 100px;
@@ -100,18 +116,18 @@ ul li ul {
 }
 
 .blue-text {
-    color: #00667d
+    color: #00667d;
 }
 
 .grey-text {
-    color: #525151
+    color: #525151;
 }
 
-ul a:hover {
-    background-color: #F1F1F1;
-    color: #00667d !important;
-}
-
-.media-carousel {
-    /* padding: 10px !important; */
+@media only screen and (max-width: 900px) {
+    .non-mobile-menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
 }
